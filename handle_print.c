@@ -2,14 +2,14 @@
 
 /**
  * handle_print - prints argument and is type based.
- * @fmt: Formatted string where to print arguments.
+ * @fmt: Formatted string to print arguments.
  * @list: List arguments to print.
  * @ind: ind.
  * @buffer: Buffer array handle print.
  * @flags: Calculating active flags.
  * @width: Get width.
  * @precision: Specifices precision.
- * @size: Specifies size.
+ * @size: Specifies the size.
  * Return: 1 or 2;
  */
 
