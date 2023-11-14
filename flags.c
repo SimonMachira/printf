@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* get_flags - calculating active flags
+* get_flags - converts unsigned int to binary
 * @format: Formatted string to print arguments
 * @i: taken parameter
 * Return: Flags
