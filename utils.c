@@ -2,9 +2,9 @@
 
 /**
  * is_printable - Evaluates if a char is printable
- * @c: Char to be evaluated.
+ * @c: Char to be evaluated
  *
- * Return: 1 if c is printable, 0 otherwise
+ * Return: 1 if c is printable, 0 if otherwise
  */
 int is_printable(char c)
 {
@@ -15,10 +15,10 @@ int is_printable(char c)
 }
 
 /**
- * append_hexa_code - Append ascci in hexadecimal code buffered
- * @buffer: Array chars.
- * @i: Index which to start appending.
- * @ascii_code: ASSCI CODE.
+ * append_hexa_code - Appends ascci in hexadecimal code buffered
+ * @buffer: Array chars
+ * @i: Index which to start appending
+ * @ascii_code: ASSCI CODE
  * Return: Always 3
  */
 int append_hexa_code(char ascii_code, char buffer[], int i)
