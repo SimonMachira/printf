@@ -1,6 +1,6 @@
 #include "main.h"
 
-void print_buffer(char buffer[], *buff_ind);
+void print_buffer(char buffer[], int *buff_ind);
 
 /**
 * _printf - Printf function
@@ -54,9 +54,9 @@ int _printf(const char *format, ...)
 }
 
 /**
- * print_buffer - Prints the contents of existing buffer
- * @buffer: Chars Array
- * @buff_ind: Index where to add next char, reps the length.
+ * print_buffer - Prints the contents of the buffer if it exist
+ * @buffer: Array of chars
+ * @buff_ind: Index at which to add next char, represents the length.
  */
 void print_buffer(char buffer[], int *buff_ind)
 {
@@ -64,3 +64,4 @@ void print_buffer(char buffer[], int *buff_ind)
 		write(1, &buffer[0], *buff_ind);
 
 	*buff_ind = 0;
+}

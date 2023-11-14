@@ -8,7 +8,7 @@
 */
 int get_flags(const char *format, int *i)
 {
-	/* - + 0 # ' ' */
+/* - + 0 # ' ' */
 	/* 1 2 4 8  16 */
 	int j, curr_i;
 	int flags = 0;
@@ -20,14 +20,15 @@ int get_flags(const char *format, int *i)
 		for (j = 0; FLAGS_CH[j] != '\0'; j++)
 			if (format[curr_i] == FLAGS_CH[j])
 			{
-				flags |= FLAGS_ARR[J];
+				flags |= FLAGS_ARR[j];
 				break;
 			}
-		if (FLAGS_CH[J] == 0
+
+		if (FLAGS_CH[j] == 0)
 			break;
 	}
 
-	*i = curr_i -1;
+	*i = curr_i - 1;
 
 	return (flags);
 }
