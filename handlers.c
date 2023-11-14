@@ -8,7 +8,7 @@
  * @flags:  Calculates the active flags.
  * @width: get width.
  * @precision: specifier of precision
- * @size: specifier of size
+ * @size: specifies the size
  *
  * Return: Number of chars printed.
  */
@@ -46,13 +46,13 @@ int handle_write_char(char c, char buffer[],
 
 /************************* WRITE NUMBER *************************/
 /**
- * write_number - Prints a string
+ * write_number - Prints string
  * @is_negative: Argument list
  * @ind: char types.
- * @buffer: Buffer array that handle print
+ * @buffer: Buffer array that handles print
  * @flags:  Calculator of active flags
  * @width: gets width.
- * @precision: Specifier of precision
+ * @precision: Specifies precision
  * @size: Specifier of size
  *
  * Return: Number of chars printed.
